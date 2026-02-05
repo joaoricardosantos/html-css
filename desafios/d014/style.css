@@ -5,10 +5,12 @@ body {
   text-align: center;
 }
 div.container {
+  width: 100vw;
+  height: 100vh;
   display: grid;
   gap: 10px;
   grid-template-rows: 50px 25px 300px 25px;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 .caixa1 {
@@ -23,14 +25,14 @@ div.container {
 
 .caixa3 {
   background-color: aquamarine;
-  grid-area: 3 / 1 / 4 / 3;
+  grid-area: 3 / 1 / 4 / 2;
 }
 
-.caixa4{
-    background-color: cadetblue;
+.caixa4 {
+  background-color: cadetblue;
 }
 
-.caixa5{
-    background-color: cornflowerblue;
-    grid-area: -2 / 1 / -1 / -1;
+.caixa5 {
+  background-color: cornflowerblue;
+  grid-area: -2 / 1 / -1 / -1;
 }
